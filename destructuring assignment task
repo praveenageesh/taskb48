@@ -1,0 +1,14 @@
+let a, b, rest; declares three variables: a, b, and rest.
+
+[a, b] = [10, 20]; uses array destructuring to assign the values from the right-hand side array [10, 20] to variables a and b. 
+After this line, a is 10 and b is 20.
+
+console.log(a); prints the value of a which is 10.
+
+console.log(b); prints the value of b which is 20.
+
+[a, b, ...rest] = [10, 20, 30, 40, 50]; uses array destructuring with the rest parameter (...rest) 
+to capture the remaining elements of the right-hand side array [10, 20, 30, 40, 50] after a and b. a is 10, b is 20, and rest is [30, 40, 50]
+output//
+   10
+   20
